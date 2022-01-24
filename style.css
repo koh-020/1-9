@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  margin: 300px auto;
+  padding: 50px auto;
+  border-top: solid #ff9a4b 50px;
+  border-bottom: solid #aaaaaa 50px;
+
+  width: 1200px;
+}
+
+.main-block {
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.step {
+  width: 300px;
+  margin: 0 15px;
+  background-color: #eeeeee;
+}
+
+.step-n {
+  position: absolute;
+  background-color: #ff9a4b;
+  color: #ffffff;
+}
+
+.image {
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+  height: 150px;
+  margin: 10px;
+}
+
+.title {
+  margin: 5px;
+}
+
+.text {
+  margin: 0 5px;
+}
